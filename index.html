@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phonie</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="logo" >
+            Phonie
+        </div>
+    </nav>
+    <form action="">
+
+        <div class="details">
+            <div>
+                <label for="firstName">firstName</label>
+            <input type="text" id="firstName" placeholder="firstName">
+            </div>
+            
+            <div >
+                <label for="lastName">lastName</label>
+            <input type="text" id="lastName" placeholder="lastName">
+            </div>
+        </div>
+        
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="email" placeholder="">
+        <br>
+        <label for="phoneNumber">phoneNumber</label>
+        <br>
+        <input type="text" id="phoneNumber" placeholder="" ><span id="photos">
+        </span>
+        <br>
+        <label for="message">message</label>
+        <textarea name="message" placeholder="enter message ..." cols="30" rows="10"></textarea>
+        <br>
+        <button onclick="checkNetwork()">Submit</button>
+    </form>
+    
+
+</body>
+</html>
